@@ -1,4 +1,4 @@
-
+/* nav ***************************/
 .navbar {		
 	background-color: beige;
 }
@@ -22,6 +22,18 @@
 	background-color: skyblue;
 	text-align: center;
 }
+
+.nav a:hover {
+	font-style: italic;
+	color: white;
+}
+
+.nav li {
+	height: 30px;
+	padding-top: 5px;
+}
+
+/* End Nav *************************/
 
 .content {	
 	box-sizing: border-box;

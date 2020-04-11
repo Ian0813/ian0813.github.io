@@ -1,0 +1,108 @@
+
+/* Part 1 */
+#test1 {
+	color:gray;
+	margin: 20px 10px 10px 10px;
+}
+
+div {
+	width: 6%;
+	height: auto;
+	margin: 10px;
+	border: 2px solid darkorange;
+	padding: 3px;
+}
+
+#d1 {
+	background-color: coral;
+}
+
+#d2 {
+	background-color: aliceblue;
+}
+
+input {
+	margin: 10px;
+}
+
+p {
+	margin: 10px;
+}
+
+/* Part 2 */
+#test2 {
+	color: darkgreen;
+	margin: 20px 10px 10px 10px;
+}
+
+.cd3 {
+	background-color: green;
+	color: black;
+}
+
+.cd4 {
+	background-color: brown;
+	color: white;
+}
+
+/* Part 3 */
+
+#test3 {
+	color: mediumblue;
+	margin: 20px 10px 10px 10px;
+}
+
+#d5 {
+	background-color: pink;
+}
+
+#d6 {
+	background-color: pink;
+}
+
+
+/* Part 4 Event and Input type */
+
+#test4 {
+	color: dimgray;
+	margin: 10px;
+}
+
+#c5 {
+	width: 200px;
+	height: 160px;
+	background-color: darkgray;
+	border: 2px solid orange;
+	margin: 10px;
+}
+
+#b7 {
+	position: relative;
+	top: 10px;
+	right: 230px;
+}
+
+#b8 {
+	position: relative;
+	top: 15px;
+	right: 240px;
+}
+
+/* Part5 Create square on Canvas */
+
+#test5 {
+	color: mediumblue;
+	margin: 10px 10px 10px 0px;
+}
+
+
+#c6 {
+	width: 200pt;
+	height: 150pt;
+	background-color: pink;
+	border: 1px solid darkgreen;
+}
+
+
+
+

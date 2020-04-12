@@ -1,0 +1,87 @@
+/* nav ***************************/
+.navbar {		
+	background-color: beige;
+}
+
+.navbar-brand {
+	font-style: bold;
+	font-size: 1.6em;	
+}
+
+#food1 {
+	background-color: pink;
+	text-align: center;
+}
+
+#food2 {
+	background-color: lightgreen;
+	text-align: center;
+}
+
+#food3 {
+	background-color: skyblue;
+	text-align: center;
+}
+
+.nav a:hover {
+	font-style: italic;
+	color: white;
+}
+
+.nav li {
+	height: 30px;
+	padding-top: 5px;
+}
+
+/* End Nav *************************/
+
+/******Header ********/
+
+header > h1 {
+	margin-bottom: 25px;
+}
+
+/****** End Header ********/
+
+/* Main Page ***********/
+.content1, .content2, .content3 {	
+	box-sizing: border-box;	
+	border: 2px solid #000;			
+}
+
+/************** ************/
+
+@media (min-width: 1200px) {
+  /* Home Page */
+  .content1, .content2, .content3 {
+    background-color: violet;
+  }
+  /* End Home Page */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Home Page */
+  .content1, .content2, .content3{
+    background-color: orange;
+  }
+
+  .content3 {
+    margin-top: 25px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  /* Home Page */
+  .content1, .content2{
+    margin-bottom:25px;
+  }
+
+    .content1, .content2, .content3{
+    background-color: red;
+    height: 500px;
+  }
+}

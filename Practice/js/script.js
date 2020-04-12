@@ -14,15 +14,11 @@ function myFunction() {
 
 function changeColor() {
 	var div3 = document.getElementById("d3");
-	var div4 = document.getElementById("d4");
-	if(div3.className == "cd4"){
-		div3.className = "cd3";
-		div4.className = "cd4";
-	}
-	else {
-		div3.className = "cd4";
-		div4.className = "cd3";
-	}
+	var div4 = document.getElementById("d4");	
+	var temp = div3.style.backgroundColor;
+	div3.style.backgroundColor = div4.style.backgroundColor;
+	div4.style.backgroundColor = temp;
+
 }
 
 // Part 3
@@ -55,7 +51,7 @@ function Create_Square() {
 	var con6 = ca6.getContext("2d");
 	var len = document.getElementById("b9");
 	con6.clearRect(0, 0, ca6.width, ca6.height);
-	con6.fillStyle = "yellow";
+	con6.fillStyle = "white";
 	con6.fillRect(0, 0, len.value, len.value);
 	con6.fillRect(parseInt(len.value) + 5, 0, len.value, len.value);
 	con6.fillRect(parseInt(len.value) * 2 + 10, 0, len.value, len.value);

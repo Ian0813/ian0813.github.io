@@ -51,7 +51,7 @@ function Create_Square() {
 	var con6 = ca6.getContext("2d");
 	var len = document.getElementById("b9");
 	con6.clearRect(0, 0, ca6.width, ca6.height);
-	con6.fillStyle = "white";
+	con6.fillStyle = "royalblue";
 	con6.fillRect(0, 0, len.value, len.value);
 	con6.fillRect(parseInt(len.value) + 5, 0, len.value, len.value);
 	con6.fillRect(parseInt(len.value) * 2 + 10, 0, len.value, len.value);
